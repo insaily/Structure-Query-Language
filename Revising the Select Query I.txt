@@ -1,0 +1,4 @@
+Revising the Select Query I
+SELECT *
+FROM city
+WHERE COUNTRYCODE = 'USA'AND population>100000;
