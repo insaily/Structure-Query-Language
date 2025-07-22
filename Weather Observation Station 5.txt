@@ -1,0 +1,12 @@
+SELECT city, LENGTH(city)
+FROM station
+ORDER BY LENGTH(city) ASC,city ASC
+LIMIT 1;
+SELECT city, LENGTH(city)
+FROM station
+ORDER BY LENGTH(city)DESC, city ASC
+LIMIT 1;
+explanation:
+in output there are 2 coloumns and 2 rows
+the first we have to fetch output which is name of city and secondly  the number of characters it has
+one is largest and other is smallest 
