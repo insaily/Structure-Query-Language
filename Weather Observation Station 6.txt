@@ -1,0 +1,9 @@
+SELECT DISTINCT city
+FROM station
+WHERE city LIKE'a%'
+OR city LIKE'e%'
+OR city LIKE'i%'
+OR city LIKE'o%'
+OR city LIKE'u%';
+*distinct is uesd for no dulicates 
+*according to given condition only vowels city names required and % is used for many names if there are many names from a it will display
