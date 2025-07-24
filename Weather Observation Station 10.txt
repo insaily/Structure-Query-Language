@@ -1,0 +1,11 @@
+SELECT DISTINCT city
+FROM station
+WHERE city NOT LIKE'%a'
+AND city NOT LIKE'%e'
+AND city NOT LIKE'%i'
+AND city NOT LIKE'%o'
+AND city NOT LIKE'%u';
+in thhis qquery all the city names that end with vowels will not display 
+% before letter means that ends with that letter
+% after letter means that names starts with that letter
+not like means that does not includee or except this
