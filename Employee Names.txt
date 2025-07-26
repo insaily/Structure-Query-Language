@@ -1,0 +1,5 @@
+SELECT name
+FROM employee
+ORDER BY name ASC;
+in this query the names of employees are display in alphabeticsl order
+here asc is for ascending function that display in alphabetical order start fromm A and ends at Z
