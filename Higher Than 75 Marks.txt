@@ -1,0 +1,9 @@
+SELECT name
+FROM students 
+WHERE marks>75
+ORDER BY  RIGHT(name,3),id;
+in this query the names of those students will display whom marks are more than 75
+secondly new  function RIGHT is used to fullfill the condition
+Don't sort by the full name or first letter
+You need to look at the last 3 letters of each student’s name
+Then arrange (sort) all the rows alphabetically by those last 3 letters 
