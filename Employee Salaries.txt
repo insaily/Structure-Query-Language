@@ -1,0 +1,6 @@
+SELECT name
+FROM employee
+WHERE (salary>2000)AND(months<10)
+order by employee_id ASC;
+in this query names of employes display who have salary more than 2000 and working less than 10 months 
+also it was sort in ascending order as given in the question 
