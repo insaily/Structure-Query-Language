@@ -1,0 +1,8 @@
+SELECT MAX(salary*months),count(*)
+FROM employee
+WHERE salary*months=(SELECT MAX(salary*months) FROM employee);
+in this query maximum total earings of employees and the  no of employees who has whos max total earnings will diaplay
+two columns will display
+for max earnings the formula is already given in the query salary*months
+max() function used for maximum and count()used for numbers of emolyees who have max total earnings, also * used for all
+in third line this filter the query which gives no of ttotal employees who have max earnings
