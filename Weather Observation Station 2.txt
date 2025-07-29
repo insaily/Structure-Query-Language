@@ -1,0 +1,4 @@
+SELECT ROUND(SUM(LAT_N),2),ROUND(SUM(LONG_W),2)
+FROM station;
+Simply add all values of coulmn lat_n and long_w and round them 2 decimal places
+ 
